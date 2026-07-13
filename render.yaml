@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: pod-matcher
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    plan: free
+    healthCheckPath: /
