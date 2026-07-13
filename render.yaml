@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: pod-matcher
+    name: dna-patientsdb
     runtime: docker
     dockerfilePath: ./Dockerfile
     plan: free
