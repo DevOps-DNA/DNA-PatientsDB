@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+.claude/settings.local.json
+
+# runtime job storage (uploads + generated output) - never commit
+jobs/*
+!jobs/.gitkeep
+
+# sample/test data containing real patient information - never commit
+*.pdf
+*.xlsx
+*.xls

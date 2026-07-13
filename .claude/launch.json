@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "pod-matcher",
+      "runtimeExecutable": ".venv/bin/uvicorn",
+      "runtimeArgs": ["app:app", "--reload", "--port", "8420", "--app-dir", "backend"],
+      "port": 8420
+    }
+  ]
+}
